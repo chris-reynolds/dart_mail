@@ -29,5 +29,10 @@ If there is an exception, the error is written to _stderr_ and the process termi
 
 ## Installation
 
-The application can be compiled to a simple executable that can be run without installation.
+The application can be compiled to a simple executable that can be run without installation. However, you do need to set up the following environment variables:
+
+    - mail_server (smtp address)
+    - mail_name (Robbie the mailbot)
+    - mail_address (robbie@mail.bot)
+    - privacy_token (i'm a cleartext password)
 

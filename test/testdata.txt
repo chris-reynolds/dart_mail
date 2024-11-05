@@ -1,6 +1,6 @@
 to::~ chrisr@instantobjects.com
 subject ::~ a bit of an email test
-
+not attachment::~ test/fred.pdf
 <h1> A heading </h1>
 a link <a href="billy.retired.kiwi">billy</a>
 
@@ -8,6 +8,7 @@ some text
 
 to::~ chrisr@instantobjects.com
 subject ::~ another bit of an email test
+file::~test/fred.pdf
 
 <h1> A heading </h1>
 a link <a href="http://billy.retired.kiwi">billy</a> that goes nowhere.
