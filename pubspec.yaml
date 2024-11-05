@@ -1,15 +1,13 @@
 name: dart_mail
-description: A sample command-line application.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: This is a command-line utility that takes a single file and can output a number of emails..
+version: 1.0.1
+repository: https://https://github.com/chris-reynolds/dart_mail
 
 environment:
   sdk: ^3.5.4
 
-# Add regular dependencies here.
 dependencies:
   mailer: ^6.2.0
-  # path: ^1.8.0
   
 
 dev_dependencies:
