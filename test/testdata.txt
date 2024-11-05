@@ -1,0 +1,17 @@
+to::~ chrisr@instantobjects.com
+subject ::~ a bit of an email test
+
+<h1> A heading </h1>
+a link <a href="billy.retired.kiwi">billy</a>
+
+some text
+
+to::~ chrisr@instantobjects.com
+subject ::~ another bit of an email test
+
+<h1> A heading </h1>
+a link <a href="http://billy.retired.kiwi">billy</a> that goes nowhere.
+
+some text
+<h2>a smaller heading</h2>
+an some more text.
