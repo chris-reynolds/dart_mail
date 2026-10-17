@@ -16,3 +16,51 @@ a link <a href="http://billy.retired.kiwi">billy</a> that goes nowhere.
 some text
 <h2>a smaller heading</h2>
 an some more text.
+
+
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <line x1="50" y1="250" x2="450" y2="250" stroke="black" />
+  <line x1="50" y1="250" x2="50" y2="50" stroke="black" />
+
+  <!-- Series 1 Line Path -->
+  <path d="M 50 200 L 150 180 L 250 120 L 350 170 L 450 100" 
+        fill="none" stroke="blue" stroke-width="2"/>
+
+  <!-- Series 1 Data Points -->
+  <circle cx="50" cy="200" r="4" fill="blue" />
+  <circle cx="150" cy="180" r="4" fill="blue" />
+  <circle cx="250" cy="120" r="4" fill="blue" />
+  <circle cx="350" cy="170" r="4" fill="blue" />
+  <circle cx="450" cy="100" r="4" fill="blue" />
+
+  <!-- Series 2 Line Path -->
+  <path d="M 50 220 L 150 190 L 250 150 L 350 130 L 450 110" 
+        fill="none" stroke="red" stroke-width="2"/>
+
+  <!-- Series 2 Data Points -->
+  <circle cx="50" cy="220" r="4" fill="red" />
+  <circle cx="150" cy="190" r="4" fill="red" />
+  <circle cx="250" cy="150" r="4" fill="red" />
+  <circle cx="350" cy="130" r="4" fill="red" />
+  <circle cx="450" cy="110" r="4" fill="red" />
+
+  <!-- Date Labels -->
+  <text x="50" y="270" font-size="12" text-anchor="middle">Jan 1</text>
+  <text x="150" y="270" font-size="12" text-anchor="middle">Feb 1</text>
+  <text x="250" y="270" font-size="12" text-anchor="middle">Mar 1</text>
+  <text x="350" y="270" font-size="12" text-anchor="middle">Apr 1</text>
+  <text x="450" y="270" font-size="12" text-anchor="middle">May 1</text>
+
+  <!-- Legend -->
+  <rect x="380" y="60" width="10" height="10" fill="blue" />
+  <text x="400" y="70" font-size="12" fill="black">Series 1</text>
+
+  <rect x="380" y="80" width="10" height="10" fill="red" />
+  <text x="400" y="90" font-size="12" fill="black">Series 2</text>
+</svg>
+
+<h3>That was a graph</h3>
+Regards
+Chris R.
+
